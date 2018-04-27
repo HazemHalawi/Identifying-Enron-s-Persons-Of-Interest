@@ -85,3 +85,15 @@ print "f1_score:", f1_score(labels_test, pred)
 
 
 
+###################Features importance####################
+###Get the most important feature, the feature's number 
+###and the actual word.
+feature_number = 0
+for i in clf.feature_importances_:
+	feature_number = feature_number +1
+	if i > 0.01 :
+		print 'feature number:', feature_number, ', feature importance:', i, ', Word: ', vocabulary[feature_number-1]
+print len(vocabulary)
+
+
+
