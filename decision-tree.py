@@ -97,3 +97,23 @@ print len(vocabulary)
 
 
 
+
+
+####################Terms Frequency########################
+#import nltk
+##nltk.download('punkt')
+#from nltk.tokenize import word_tokenize
+#from nltk.corpus import stopwords
+#with open("../test/word_data.pkl", "r") as f:
+    #data = f.read()
+#words= word_tokenize(data)
+#useful_words = [word  for word in words if word not in stopwords.words('english')]
+#frequency = nltk.FreqDist(useful_words)
+#print(frequency.most_common(100))
+#-->[('enron', 21248), ('would', 9826), ('program', 9206), ('forward', 8847), ('david', 8774), ('compani', 8420), ('schedul', 8390), ('one', 8233), ('w', 8105), ('price', 7980), ('busi', 7900), ('pleas', 7821), ('time', 7465), ('new', 7399), ('subject', 7261), ('market', 7220), ('power', 6988), ('final', 6873), ('databasealia', 6729), ('ani', 6595), ('hour', 6528), ('need', 6520), ('deal', 6376), ('know', 6335), ('provid', 5912), ('also', 5908), ('meet', 5797), ('work', 5569), ('oper', 5543), ('manag', 5357), ('date', 5333), ('energi', 5183), ('like', 5097), ('pm', 5018), ('dbcaps97dataunknown', 4994), ('file', 4895), ('import', 4806), ('close', 4778), ('continu', 4740), ('said', 4738), ('get', 4675), ('group', 4673), ('trade', 4593), ('make', 4588), ('associateanalyst', 4584), ('may', 4556), ('hourahead', 4524), ('perform', 4360), ('us', 4332), ('call', 4189), ('peopl', 4182), ('pmto', 4135), ('year', 4124), ('2001', 4122), ('john', 4048), ('current', 4048), ('california', 3993), ('plan', 3897), ('issu', 3866), ('email', 3860), ('day', 3784), ('direct', 3779), ('gas', 3688), ('week', 3610), ('inform', 3599), ('mani', 3549), ('discuss', 3529), ('ena', 3512), ('mark', 3457), ('chang', 3412), ('let', 3400), ('remain', 3398), ('onli', 3379), ('delaineyhouect', 3293), ('includ', 3268), ('2', 3267), ('creat', 3265), ('report', 3212), ('cap', 3176), ('review', 3174), ('want', 3167), ('communic', 3165), ('go', 3110), ('process', 3101), ('use', 3101), ('month', 3098), ('unit', 3093), ('risk', 3061), ('next', 3037), ('varianc', 3036), ('question', 3022), ('term', 3011), ('opportun', 3010), ('jeff', 3010), ('dbcaps97data', 3005), ('success', 3001), ('requir', 2999), ('think', 2996), ('j', 2979), ('origin', 2970)]
+
+
+
+
+
+
