@@ -55,3 +55,18 @@ print "training time:", round(time()-t0, 3), "s"
 #print("Best estimator found by grid search:")
 #print(clf.best_estimator_)
 
+
+
+###################Validating Model#######################
+###We make predictions on the test set, and then we 
+###calculate the accuracy the validate our model performance.
+from sklearn.metrics import accuracy_score
+t0 = time()
+pred = clf.predict(features_test)
+print "prediction time:", round(time()-t0, 3), "s"
+
+###Calculating Accuracy
+accuracy = accuracy_score(pred, labels_test)
+print "Accuracy : ", accuracy
+
+
