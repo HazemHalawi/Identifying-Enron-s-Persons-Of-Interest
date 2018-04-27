@@ -70,3 +70,18 @@ accuracy = accuracy_score(pred, labels_test)
 print "Accuracy : ", accuracy
 
 
+
+##############Evaluating Model Performance#################
+###Using recall and percision
+#pred = pred.tolist()
+from sklearn.metrics import precision_score, recall_score, f1_score
+labels_test = np.asarray(labels_test)
+labels_test = labels_test.astype(np.int)
+pred = pred.astype(np.int)
+###Calculating Precision and recall
+print "Precision:", precision_score(labels_test, pred)
+print "Recall:", recall_score(labels_test, pred)
+print "f1_score:", f1_score(labels_test, pred)
+
+
+
