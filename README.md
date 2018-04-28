@@ -8,7 +8,7 @@ Machine learning can identify patterns in huge datasets, in this case the Enron 
 
 I downloaded the dataset from : https://www.cs.cmu.edu/~enron/
 
-The [emails-processing.py](https://github.com/HazemHalawi/MachineLearning/blob/master/emails-processing.py) file, takes the emails with a list of poi names, and creates tow files. The first file (word_data.pkl) contains the features (emails) and the second (from_data.pkl) contain the asoociated labels (POI or NonPOI). Both file are in the [Features-Labels.zip](https://github.com/HazemHalawi/MachineLearning/blob/master/Features-Labels.zip). This algorithm also does some text learning, including stemming, for each email.
+The [emails-processing.py](https://github.com/HazemHalawi/MachineLearning/blob/master/emails-processing.py) file, takes the emails (I selected 17600 email and not the whole dataset) with a list of poi names, and creates tow files. The first file (word_data.pkl) contains the features (emails) and the second (from_data.pkl) contain the asoociated labels (POI or NonPOI). Both file are in the [Features-Labels.zip](https://github.com/HazemHalawi/MachineLearning/blob/master/Features-Labels.zip). This algorithm also does some text learning, including stemming, for each email.
 
 I tried three different algorithms when building my machine learning model ([decision tree](https://github.com/HazemHalawi/MachineLearning/blob/master/decision-tree.py), [Naive Bayes](https://github.com/HazemHalawi/MachineLearning/blob/master/Naive-bayes.py) and [SVM](https://github.com/HazemHalawi/MachineLearning/blob/master/SVM.py)).
 
