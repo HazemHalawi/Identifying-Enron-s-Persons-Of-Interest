@@ -10,7 +10,14 @@ I downloaded the dataset from : https://www.cs.cmu.edu/~enron/
 
 The [emails-processing.py](https://github.com/HazemHalawi/MachineLearning/blob/master/emails-processing.py) file, takes the emails with a list of poi names, and creates tow files. The first file (word_data.pkl) contains the features (emails) and the second (from_data.pkl) contain the asoociated labels (POI or NonPOI). Both file are in the [Features-Labels.zip](https://github.com/HazemHalawi/MachineLearning/blob/master/Features-Labels.zip). This algorithm also does some text learning, including stemming, for each email.
 
-I tried three different algorithms when building my machine learning model ([decision tree](https://github.com/HazemHalawi/MachineLearning/blob/master/decision-tree.py), [Naive Bayes](https://github.com/HazemHalawi/MachineLearning/blob/master/naive-bayes.py) and [SVM](https://github.com/HazemHalawi/MachineLearning/blob/master/SVM.py)).
+I tried three different algorithms when building my machine learning model ([decision tree](https://github.com/HazemHalawi/MachineLearning/blob/master/decision-tree.py), [Naive Bayes](https://github.com/HazemHalawi/MachineLearning/blob/master/Naive-bayes.py) and [SVM](https://github.com/HazemHalawi/MachineLearning/blob/master/SVM.py)).
+
+In all three algorithms, the data is aplit into test(20%) and training set(80%), vectorized with TfidfVectorizer (stopwords are removed in this step), then the model is trained with this data(training features and labels) using the algorithm (parameter tune is introduced before this step to select the best parameters that will maximise the performance), and finally the model the model is validated using accuracy_score, and evaluated using recall_score, precision_score and f1_score.
+
+All machine learning libraries used, are imported from Sklearn (scikit-learn).
+
+As a result a got an accuracy of 98.26% for the decision tree, 91.76% for Naive Bayes and 98.75% for SVM (after tuning).
+
 
 
 
