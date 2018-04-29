@@ -12,7 +12,7 @@ The [emails-processing.py](https://github.com/HazemHalawi/MachineLearning/blob/m
 
 I tried three different algorithms when building my machine learning model ([decision tree](https://github.com/HazemHalawi/MachineLearning/blob/master/decision-tree.py), [Naive Bayes](https://github.com/HazemHalawi/MachineLearning/blob/master/Naive-bayes.py) and [SVM](https://github.com/HazemHalawi/MachineLearning/blob/master/SVM.py)).
 
-In all three algorithms, the data is aplit into test(20%) and training set(80%), vectorized with TfidfVectorizer (stopwords are removed in this step), then the model is trained with this data (training features and labels) using the algorithm (parameter tune is introduced before this step to select the best parameters that will maximise the performance), and finally the model is validated using accuracy_score, and evaluated using recall_score, precision_score and f1_score.
+In all three algorithms, the data is split into test(20%) and training set(80%), vectorized with TfidfVectorizer (stopwords are removed in this step), then the model is trained with this data (training features and labels) using the algorithm (parameter tune is introduced before this step to select the best parameters that will maximise the performance), and finally the model is validated using accuracy_score, and evaluated using recall_score, precision_score and f1_score.
 
 All machine learning libraries used, are imported from Sklearn (scikit-learn).
 
