@@ -1,6 +1,6 @@
 # MachineLearning
 
-In this project I used The Email Dataset of Enron, the company that suffered the largest bankruptcy reorganization in American history due to fraudulent practices, which contains a total of about 0.5M email messages from about 150 users from this company. 
+In this project I used The Email Dataset of Enron, the company that suffered the largest bankruptcy reorganization in American history due to fraudulent practices. This dataset contains a total of about 0.5M email messages from about 150 users from this company. 
 
 The goal of this project is to build machine learning model that can identify persons of interest (poi), which means individuals who were indicted, reached a settlement, or plea deal with the government, or testified in exchange for prosecution immunity, based on Enron's email dataset.
 
